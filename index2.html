@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Ecommerce</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <section id="header">
+        <div class="container">
+            <img src="images/logo.png" alt="logo" class="logo">
+            <div class="header-text">
+                <h1>The purpose is to bring <br>learning and praticing together</h1>
+                <p><span class="square"></span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit inventore
+                    distinctio ducimus modi voluptas,
+                    facere quisquam aspernatur suscipit nisi ab delectus minima aliquam. Quibusdam architecto facilis
+                    nostrum
+                    cum numquam non?</p><br>
+                <button class="common-btn">Read more >></button>
+                <div class="line">
+                    <span class="line-1"></span>
+                    <span class="line-2"></span>
+                    <span class="line-3"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation -->
+    <nav id="sideNav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Offers</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <img src="images/menu.png" alt="menu" id="menuBtn">
+    </nav>
+
+    <!-- about -->
+    <section id="about">
+        <div class="about-left-col">
+            <img src="images/about.png">
+        </div>
+        <div class="about-right-col">
+            <div class="about-text">
+                <h1>About Us</h1>
+                <p><span class="square"></span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+                    sequi consectetur
+                    quisquam iure unde. Natus delectus nihil ipsa illum ab iste aliquam, soluta atque reiciendis
+                    incidunt rerum a fugit vero? Laborum voluptate quod repellendus rem sit totam molestiae obcaecati id
+                </p>
+                <h2>"Learning is not attained by chance, it must be sought for with ardor
+                    and attended to with diligence"
+                </h2>
+                <h3>----Abigail Adams</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- features -->
+    <section id="features">
+        <div class="feature-row">
+            <div class="feature-col">
+                <img src="images/pic-1.png">
+                <h4>Learn from anywhere</h4>
+                <p>Switch between computer,tablet or mobile device.</p>
+            </div>
+            <div class="feature-col">
+                <img src="images/pic-2.png">
+                <h4>Expert Teachers</h4>
+                <p>Learn from industry experts who are passinate about teaching.</p>
+            </div>
+            <div class="feature-col">
+                <img src="images/pic-3.png">
+                <h4>Unlimited Access</h4>
+                <p>Choose what you'd like to learn from our extensive subscription
+                    library.</p>
+            </div>
+        </div>
+        <div class="feature-btn">
+            <div class="line">
+                <span class="line-1"></span>
+                <span class="line-2"></span>
+                <span class="line-3"></span>
+            </div>
+            <button class="common-btn">Start Free Trial</button>
+        </div>
+    </section>
+
+    <!-- courses -->
+    <section id="courses">
+        <div class="container course-row">
+            <div class="course-left-col">
+                <div class="course-text">
+                    <h1>Browse our top<br>courses</h1>
+                    <p><span class="square"></span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
+                        vel vitae quos quidem.
+                        Labore, tempora aperiam consectetur, architecto nostrum incidunt
+                        magni eius mollitia doloribus quas repellendus corporis similique quasi vitae!</p>
+                </div>
+                <div class="course-btn">
+                    <button class="common-btn">View All Courses</button>
+                    <div class="line">
+                        <span class="line-1"></span>
+                        <span class="line-2"></span>
+                        <span class="line-3"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="course-right-col">
+                <img src="images/course.png">
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav");
+        sideNav.style.right = "-250px";
+        menuBtn.onclick = function () {
+            if (sideNav.style.right === "-250px") {
+                sideNav.style.right = "0";
+            }
+            else {
+                return sideNav.style.right = "-250px";
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
